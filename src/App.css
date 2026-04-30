@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.todo-form,
+.todo-item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input,
+textarea {
+  width: 85%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background: #28a745;
+  color: white;
+}
+
+.controls {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.todo-item.done h3,
+.todo-item.done p {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
